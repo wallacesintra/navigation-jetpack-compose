@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Lunch Tray</string>
     <string name="time_for_lunch">Time for Lunch</string>
+    <string name="price">"Ksh.%d"</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_entree">Choose Entree</string>
+    <string name="choose_side_dish">Choose Side Dish</string>
+    <string name="choose_accompaniment">Choose Accompaniment</string>
 </resources>
