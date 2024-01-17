@@ -15,8 +15,8 @@ enum class Accompaniment{
 }
 
 data class LunchUiState(
-    val sideDish: SideDish,
-    val entree: Entree,
-    val accompaniment: Accompaniment,
-    val totalBill: Int
+    val sideDish: SideDish = SideDish.Cauliflower,
+    val entree: Entree = Entree.CoconutRice,
+    val accompaniment: Accompaniment = Accompaniment.LunchRoll,
+    val totalBill: Int = 0
 )

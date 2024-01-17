@@ -22,15 +22,17 @@ import com.example.lunchtray.ui.theme.LunchTrayTheme
 @Composable
 fun OptionsItem(
     modifier: Modifier = Modifier,
-    option: Options
+    option: Options,
+    onClick: () -> Unit
 ){
+    
     Row(
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier.padding(5.dp)
     ) {
         RadioButton(
             selected = option.selected,
-            onClick = {  }
+            onClick = onClick
         )
         Column {
             Text(
@@ -60,6 +62,9 @@ fun OptionLayout(
         items(optionsList){option ->
             OptionsItem(
                 option = option,
+                onClick = {
+
+                }
             )
         }
     }
